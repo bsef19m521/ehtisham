@@ -170,6 +170,7 @@ header .navbar ul li a:hover{
 }
 
 .home p{
+    text-transform: none;
     font-size:2rem;
     color:#eee;
     padding: 1rem 0;
@@ -244,7 +245,7 @@ header .navbar ul li a:hover{
 }
 
 .education .box-container .box span{
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     background:#222;
     color:#fff;
     border-radius: 5rem;
@@ -252,15 +253,16 @@ header .navbar ul li a:hover{
 }
 
 .education .box-container .box h3{
-    font-size: 2rem;
+    font-size: 2.2rem;
     color:#fff;
     padding-top: 1.5rem;
 }
 
 .education .box-container .box p{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color:#eee;
     padding: 1rem 0;
+    text-transform: none;
 }
 
 .education .box-container .box i{
@@ -337,6 +339,15 @@ header .navbar ul li a:hover{
     text-transform: capitalize;
 }
 
+
+.section .box-container .box {
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+
+}
+
 .contact .row form .message{
     height: 15rem;
     resize: none;
@@ -347,6 +358,21 @@ header .navbar ul li a:hover{
     color:#fff;
     font-size: 3rem;
     padding-bottom: 2rem;
+}
+
+.portfolio .box-container .box{
+    /*width:200px;*/
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 20px;
+  margin-bottom: 1px;
+  color:#fff;
+  float:left;
+   text-transform: uppercase;
+    font-size: 2rem;
+    padding-bottom: 10rem;
 }
 
 .contact .row .content .info h3{
@@ -457,3 +483,10 @@ header .navbar ul li a:hover{
     }
 
  }
+
+
+
+
+
+
+
